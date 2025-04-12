@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &278723837648112274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.777475
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.777474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.45026
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50000155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.49999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.4999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5015489599539274199, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679401535856196461, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      propertyPath: m_Name
+      value: OSC Dropship_01_Piping_02_Red (8) Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5679401535856196461, guid: a2d1182763550ae4696e4af628479421, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1314198805833823906}
+  m_SourcePrefab: {fileID: 100100000, guid: a2d1182763550ae4696e4af628479421, type: 3}
+--- !u!1 &5552780292948177407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5679401535856196461, guid: a2d1182763550ae4696e4af628479421, type: 3}
+  m_PrefabInstance: {fileID: 278723837648112274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1314198805833823906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5552780292948177407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 381bcfbab07f6a4418dc362e5c5c8b9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: -12, y: 0, z: 0}
+  moveSpeed: 0.5
